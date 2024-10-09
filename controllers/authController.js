@@ -67,6 +67,5 @@ exports.login = async (req, res) => {
 };
 
 exports.logout = (req, res) => {
-  // Clear the token on the client side
   res.json({ msg: 'Successfully logged out' });
 };
